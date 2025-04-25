@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 
 # Load model and vectorizer
-model = joblib.load('sentiment_model.pkl')
-vectorizer = joblib.load('vectorizer.pkl')
+model = joblib.load('sentiment_model_1.pkl')
+vectorizer = joblib.load('vectorizer_1.pkl')
 
 # App UI
 st.title("Restaurant Review Sentiment Analyzer 🍽️")
